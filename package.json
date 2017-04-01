@@ -1,0 +1,30 @@
+{
+  "name": "array-to-object-iterable",
+  "version": "1.0.0",
+  "description": "Convert an iterable that returns [key, value] to { key: value }",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delvedor/array-to-object-iterable.git"
+  },
+  "keywords": [
+    "iterable",
+    "array",
+    "object",
+    "convert",
+    "map"
+  ],
+  "author": "Tomas Della Vedova - @delvedor (http://delved.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delvedor/array-to-object-iterable/issues"
+  },
+  "homepage": "https://github.com/delvedor/array-to-object-iterable#readme",
+  "devDependencies": {
+    "standard": "^9.0.2",
+    "tap": "^10.3.1"
+  }
+}
